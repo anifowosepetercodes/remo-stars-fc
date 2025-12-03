@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NPFL League Table</title>
+    <link rel="icon" href="assets/Remo_Stars_icon.png" type="image/x-icon">
+  <style>
+    .tab {
+      font-family: Arial;
+      background-color: rgba(128, 128, 128, 0.100);
+      background-color: #333;
+    }
+
+    .npfl {
+      margin-top: 141px;
+      color: white;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+      background-color: black;
+      color: white;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 6px;
+      text-align: center;
+    }
+
+    input,
+    select {
+      margin: 5px;
+      padding: 5px;
+    }
+  </style>
+  <link rel="icon" href="assets/Remo_Stars_icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yadaYADA..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="tab">
+
+  <header class="head">
+    <!--navigation-->
+
+    <nav class="nav-bar" id="nav-bar">
+
+      <ul class="nav-text" id="nav-text">
+        <li class="navigate"> <a href="index.html">Home</a> </li>
+
+        <!--dropdown list-->
+
+        <li class="dropdown navigate"> <a href="about.html">About Us </a>
+
+          <ul class="dropdown-menu">
+            <li><a href="messeage.html">Message from the club</a></li>
+            <li class="divid"></li>
+            <li><a href="ourpartners.html">Our Partners</a></li>
+          </ul>
+
+        </li>
+
+        <!--ends-->
+
+        <li class="navigate"> <a href="gallery.html">Gallery</a> </li>
+
+        <li class="navigate"> <a href="team.html">Team</a> </li>
+
+        <img src=" assets/Remo_Stars_cl.png" class="nav-img">
+
+        <li class="navigate"> <a href=" fixtures.html">Fixtures</a> </li>
+
+        <li class="navigate"> <a href="contact.html">Contact Us</a> </li>
+
+        <li class="navigate"> <a href="store.html">Store</a> </li>
+
+        <div class="nav-icon">
+
+          <a href="https://www.instagram.com/remostars/" target="_blank"><i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr#" target="_blank"><i
+              class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://x.com/RemoStarsSC?s=09/" target="_blank"><i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <h2 class="npfl">NPFL League Table </h2>
+
+  <table id="leagueTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Club</th>
+        <th>P</th>
+        <th>W</th>
+        <th>D</th>
+        <th>L</th>
+        <th>GD</th>
+        <th>PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="remo-stars">
+        <td>1</td>
+        <td>Remo Stars</td>
+        <td>38</td>
+        <td>22</td>
+        <td>5</td>
+        <td>11</td>
+        <td>+18</td>
+        <td>71</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rivers United</td>
+        <td>38</td>
+        <td>18</td>
+        <td>10</td>
+        <td>10</td>
+        <td>+6</td>
+        <td>64</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Abia Warriors</td>
+        <td>38</td>
+        <td>18</td>
+        <td>6</td>
+        <td>14</td>
+        <td>+3</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Ikorodu City</td>
+        <td>38</td>
+        <td>17</td>
+        <td>8</td>
+        <td>13</td>
+        <td>+15</td>
+        <td>59</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Bendel Insurance</td>
+        <td>38</td>
+        <td>15</td>
+        <td>11</td>
+        <td>12</td>
+        <td>+6</td>
+        <td>56</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Enyimba</td>
+        <td>38</td>
+        <td>14</td>
+        <td>13</td>
+        <td>11</td>
+        <td>+3</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Plateau United</td>
+        <td>38</td>
+        <td>16</td>
+        <td>9</td>
+        <td>13</td>
+        <td>+2</td>
+        <td>54</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Shooting Stars</td>
+        <td>38</td>
+        <td>15</td>
+        <td>9</td>
+        <td>14</td>
+        <td>+1</td>
+        <td>54</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Kano Pillars</td>
+        <td>38</td>
+        <td>15</td>
+        <td>8</td>
+        <td>15</td>
+        <td>-1</td>
+        <td>53</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Enugu Rangers</td>
+        <td>38</td>
+        <td>14</td>
+        <td>10</td>
+        <td>14</td>
+        <td>+8</td>
+        <td>52</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Bayelsa United</td>
+        <td>38</td>
+        <td>13</td>
+        <td>13</td>
+        <td>12</td>
+        <td>+3</td>
+        <td>52</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Nasarawa United</td>
+        <td>38</td>
+        <td>14</td>
+        <td>10</td>
+        <td>14</td>
+        <td>-1</td>
+        <td>52</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Niger Tornadoes</td>
+        <td>38</td>
+        <td>14</td>
+        <td>9</td>
+        <td>15</td>
+        <td>-6</td>
+        <td>51</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Kwara United</td>
+        <td>38</td>
+        <td>14</td>
+        <td>8</td>
+        <td>16</td>
+        <td>+2</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Kastina United</td>
+        <td>38</td>
+        <td>14</td>
+        <td>8</td>
+        <td>16</td>
+        <td>-6</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>El-Kanemi Warriors</td>
+        <td>38</td>
+        <td>12</td>
+        <td>13</td>
+        <td>13</td>
+        <td>-7</td>
+        <td>49</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Heartland</td>
+        <td>38</td>
+        <td>12</td>
+        <td>12</td>
+        <td>14</td>
+        <td>-1</td>
+        <td>48</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Akwa United</td>
+        <td>38</td>
+        <td>12</td>
+        <td>8</td>
+        <td>18</td>
+        <td>-4</td>
+        <td>44</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Sunshine Stars</td>
+        <td>38</td>
+        <td>11</td>
+        <td>8</td>
+        <td>19</td>
+        <td>-17</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Lobi Stars</td>
+        <td>38</td>
+        <td>6</td>
+        <td>10</td>
+        <td>22</td>
+        <td>-27</td>
+        <td>28</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <div class="copybackgimg">
+    <div class="copybackgcol">
+      <P class="copy" style="color: white;">
+        copyright &copy; 2025 Remo Stars.All Rights Reserved.
+      </P>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

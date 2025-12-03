@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart-Remo Stars FC</title>
+  <link rel="icon" href="assets/Remo_Stars_icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yadaYADA..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="head">
+    <!--navigation-->
+    <nav class="nav-bar">
+
+      <ul class="nav-text">
+        <li class="navigate"> <a href="index.html">Home</a> </li>
+
+        <!--dropdown list-->
+
+        <li class="dropdown navigate"> <a href="about.html">About Us </a>
+
+          <ul class="dropdown-menu">
+            <li><a href="messeage.html">Message from the club</a></li>
+            <li class="divid"></li>
+            <li><a href="ourpartners.html">Our Partners</a></li>
+          </ul>
+
+        </li>
+
+        <!--ends-->
+
+        <li class="navigate"> <a href="gallery.html">Gallery</a> </li>
+
+        <li class="navigate"> <a href="team.html">Team</a> </li>
+
+        <img src=" assets/Remo_Stars_cl.png" class="nav-img">
+
+        <li class="navigate"> <a href=" fixtures.html">Fixtures</a> </li>
+
+        <li class="navigate"> <a href="contact.html">Contact Us</a> </li>
+
+        <li class="navigate"> <a href="store.html">Store</a> </li>
+
+        <div class="nav-icon">
+
+          <a href="https://www.instagram.com/remostars/" target="_blank"><i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr#" target="_blank"><i
+              class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://x.com/RemoStarsSC?s=09/" target="_blank"><i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+        </div>
+      </ul>
+
+    </nav>
+    <!--navigation ends-->
+    <!-- 
+    <h2 class="welcome">
+      Welcome to Remo Stars FC
+    </h2> -->
+
+  </header>
+  <div class="cart-icon">
+    <h2 class="cart">CART</h2>
+    <div class="shop-cart">
+      <i class="fa fa-shopping-cart shop-cart-icon" aria-hidden="true"></i>
+      <p id="cart-count">0</p>
+    </div>
+  </div>
+  <div class="entire-cart">
+    <div class="purchase">
+      <div class="remo-cart">
+        <div class="all-cart">
+          <div class="name">
+            <div class="jer-dets-head">
+              <p class="jer">JERSEY</p>
+              <p class="jer-dets-text">details</p>
+            </div>
+            <div class="qua-pri">
+              <p class="qua">QUANTITY</p>
+              <p class="pri">PRICE</p>
+            </div>
+            <p class="blank">remove</p>
+          </div>
+
+          <div class="home-cart cartItems">
+            <div class="jer-dets">
+              <img src="assets/home.jpeg" alt="">
+              <div class="name-size">
+                <p>Home jersey</p>
+                <div class="size">
+                  <p>size:</p>
+                  <select name="" id="del" required>
+                    <option>
+                      XS
+                    </option>
+                    <option>
+                      S
+                    </option>
+                    M
+                    <option>
+                      L
+                    </option>
+                    <option>
+                      XL
+                    </option>
+                    <option>
+                      XXL
+                    </option>
+                    <option>
+                      3XL
+                    </option>
+                    <option>
+                      4XL
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="qua-pri">
+              <input type="number" class="quantity" name="" id="cart-product1" min="0" value="1">
+              <h3 class="montotal "> &#8358; <span class="totalitem" id="price1">6,000 </span><br> <span
+                  class="each-pri">&#8358; 6,000
+                  each</span></h3>
+            </div>
+            <button class="remo" id="remove1">Remove</button>
+          </div>
+
+          <div class="away-cart cartItems">
+            <div class="jer-dets">
+              <img src="assets/away.jpeg" alt="">
+              <div class="name-size">
+                <p>Away jersey</p>
+                <div class="size">
+                  <p>size:</p>
+                  <select name="" id="del" required>
+                    <option>
+                      XS
+                    </option>
+                    <option>
+                      S
+                    </option>
+                    M
+                    <option>
+                      L
+                    </option>
+                    <option>
+                      XL
+                    </option>
+                    <option>
+                      XXL
+                    </option>
+                    <option>
+                      3XL
+                    </option>
+                    <option>
+                      4XL
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="qua-pri">
+              <input type="number" class="quantity" name="" id="cart-product2" min="0" value="1">
+              <h3 class="montotal "> &#8358; <span class="totalitem" id="price2">6,000 </span><br> <span
+                  class="each-pri">&#8358; 6,000
+                  each</span></h3>
+            </div>
+            <button class="remo" id="remove2">Remove</button>
+          </div>
+
+          <div class="alt-cart cartItems">
+            <div class="jer-dets">
+              <img src="assets/alt.jpeg" alt="">
+              <div class="name-size">
+                <p>Alter jersey</p>
+                <div class="size">
+                  <p>size:</p>
+                  <select name="" id="del" required>
+                    <option>
+                      XS
+                    </option>
+                    <option>
+                      S
+                    </option>
+                    M
+                    <option>
+                      L
+                    </option>
+                    <option>
+                      XL
+                    </option>
+                    <option>
+                      XXL
+                    </option>
+                    <option>
+                      3XL
+                    </option>
+                    <option>
+                      4XL
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="qua-pri">
+              <input type="number" class="quantity" name="" id="cart-product3" min="0" value="1">
+              <h3 class="montotal "> &#8358; <span class="totalitem" id="price3">6,000 </span><br> <span
+                  class="each-pri">&#8358; 6,000
+                  each</span></h3>
+            </div>
+            <button class="remo" id="remove3">Remove</button>
+          </div>
+
+
+          <div class="Proceed-checkout">
+            <a href="delivery.html"> Make Purchase > </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-total">
+        <div class="coupon">
+          <p>Have Coupon?</p>
+          <div class="coup-code-btn">
+            <input type="text" name="" id="coupon-input" placeholder="Coupon Code">
+            <button onclick="applyCoupon()">Apply</button>
+          </div>
+        </div>
+        <div>
+          <div class="purchase-total">
+            <div class="all-total">
+              <p>
+                Total price:
+              </p>
+              <p>
+                &#8358;
+                <span id="total-price">18,000</span>.00
+              </p>
+            </div>
+            <div class="all-total">
+              <p>
+                Discount:
+              </p>
+              <p>
+                &#8358;
+                <span>2,000</span>.00
+              </p>
+            </div>
+            <div class="all-total">
+              <p>
+                Total:
+              </p>
+              <p>
+                &#8358;
+                <span id="final-total">16,000</span>.00
+              </p>
+            </div>
+          </div>
+          <div class="card-img">
+            <img src="assets/card img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="copybackgimg">
+    <div class="copybackgcol">
+      <P class="copy">
+        copyright &copy; 2025 Remo Stars.All Rights Reserved.
+      </P>
+    </div>
+  </div>
+  </div>
+
+  <script src="script/script.js" defer></script>
+</body>
+
+</html>

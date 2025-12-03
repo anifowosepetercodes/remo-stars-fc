@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact-Remo Stars FC</title>
+  <link rel="icon" href="assets/Remo_Stars_icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yadaYADA..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="head">
+    <!--navigation-->
+    <nav class="nav-bar">
+
+      <ul class="nav-text">
+        <li class="navigate"> <a href="index.html">Home</a> </li>
+
+        <!--dropdown list-->
+
+        <li class="dropdown navigate"> <a href="about.html">About Us </a>
+
+          <ul class="dropdown-menu">
+            <li><a href="messeage.html">Message from the club</a></li>
+            <li class="divid"></li>
+            <li><a href="ourpartners.html">Our Partners</a></li>
+          </ul>
+
+        </li>
+
+        <!--ends-->
+
+        <li class="navigate"> <a href="gallery.html">Gallery</a> </li>
+
+        <li class="navigate"> <a href="team.html">Team</a> </li>
+
+        <img src=" assets/Remo_Stars_cl.png" class="nav-img">
+
+        <li class="navigate"> <a href=" fixtures.html">Fixtures</a> </li>
+
+        <li class="navigate"> <a href="contact.html">Contact Us</a> </li>
+
+        <li class="navigate"> <a href="store.html">Store</a> </li>
+
+        <div class="nav-icon">
+
+          <a href="https://www.instagram.com/remostars/" target="_blank"><i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr#" target="_blank"><i
+              class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://x.com/RemoStarsSC?s=09/" target="_blank"><i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+        </div>
+      </ul>
+
+    </nav>
+    <!--navigation ends-->
+    <!-- 
+    <h2 class="welcome">
+      Welcome to Remo Stars FC
+    </h2> -->
+
+  </header>
+  <!-- 
+  <div class="backg-pic">
+    <h1>
+      Contact Us
+    </h1>
+  </div> -->
+
+
+  <h1 class="lgit">LET'S GET IN TOUCH</h1>
+
+  <div class="contact-location">
+
+    <div class="contact-us">
+      <h2>MESSAGE</h2>
+      <form action="" method="get">
+        <div class="names">
+          <div>
+            <input type="text" class="fn" id="fn" placeholder="First name" required />
+            <p class="error" id="fn-error"></p>
+          </div>
+          <div>
+            <input type="text" class="ln" id="ln" placeholder="Last name" required />
+            <p class="error" id="ln-error"></p>
+          </div>
+        </div>
+        <br />
+        <div class="num-address">
+          <div>
+            <input type="tel" class="mn" id="pn" placeholder="Phone Number" maxlength="11" required />
+            <p class="error" id="pn-error"></p>
+          </div>
+          <div>
+            <input type="text" class="em" id="em" placeholder="Email Address" required />
+            <p class="error" id="em-error"></p>
+          </div>
+        </div>
+        <br />
+
+        <textarea name="" id="sub" rows="2" cols="62" placeholder="Subject" class="subject" required></textarea>
+        <p class="error" id="sub-error"></p>
+        <br />
+
+        <textarea name="" id="mess" rows="10" cols="62" placeholder="Your Message" class="message" required></textarea>
+        <p class="error" id="mess-error"></p>
+        <br />
+
+        <div onclick="submits(event)">
+          <button class="submit" id="submit">Submit Form</button>
+        </div>
+
+      </form>
+    </div>
+
+
+    <div class="location">
+      <h2 class="oc-text">OUR CONTACT</h2>
+
+      <div class="locate">
+        <div class="loacte-icon">
+          <i class="fa-solid fa-location-dot" id="icon"></i>
+        </div>
+        <div class="loacte-text">
+          <h3>Head Office</h3>
+          <p>Ikenne Remo, Road, Ikenne 121103, Ogun State</p>
+        </div>
+      </div>
+
+      <div class="locate">
+        <div class="loacte-icon">
+          <i class="fa-solid fa-envelope" id="icon"></i>
+        </div>
+        <div class="loacte-text">
+          <h3>Email Address</h3>
+          <p>remostarsfc@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="locate">
+        <div class="loacte-icon">
+          <i class="fa-solid fa-phone" id="icon"></i>
+        </div>
+        <div class="loacte-text">
+          <h3>Call Us</h3>
+          <p>+234(0)814-617-1246</p>
+        </div>
+      </div>
+
+      <h2 class="sm-text">SOCIAL MEDIA</h2>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/remostars/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://x.com/RemoStarsSC?s=09/" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr#" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:200px;margin-top: 20px;">
+        <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+            style="height:100%;width:100%;border:0;" frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?q=remo+stars+fooball+club&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div><a class="embed-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes"
+          id="authmaps-data">premium bootstrap themes</a>
+        <style>
+          #embed-map-canvas img {
+            max-height: none;
+            max-width: none !important;
+            background: none !important;
+          }
+        </style>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="copybackgimg">
+    <div class="copybackgcol">
+      <P class="copy">
+        copyright &copy; 2025 Remo Stars.All Rights Reserved.
+      </P>
+    </div>
+  </div>
+  <script src="script/ss.js" defer></script>
+</body>
+
+</html>

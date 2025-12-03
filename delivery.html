@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment and Delivery-Remo Stars FC</title>
+  <link rel="icon" href="assets/Remo_Stars_icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-yadaYADA..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="pay-del-body">
+
+  <header class="head">
+    <!--navigation-->
+    <nav class="nav-bar">
+
+      <ul class="nav-text">
+        <li class="navigate"> <a href="index.html">Home</a> </li>
+
+        <!--dropdown list-->
+
+        <li class="dropdown navigate"> <a href="about.html">About Us </a>
+
+          <ul class="dropdown-menu">
+            <li><a href="messeage.html">Message from the club</a></li>
+            <li class="divid"></li>
+            <li><a href="ourpartners.html">Our Partners</a></li>
+          </ul>
+
+        </li>
+
+        <!--ends-->
+
+        <li class="navigate"> <a href=" gallery.html">Gallery</a> </li>
+
+        <li class="navigate"> <a href="team.html">Team</a> </li>
+
+        <img src=" assets/Remo_Stars_cl.png" class="nav-img">
+
+        <li class="navigate"> <a href=" fixtures.html">Fixtures</a> </li>
+
+        <li class="navigate"> <a href="contact.html">Contact Us</a> </li>
+
+        <li class="navigate"> <a href="store.html">Store</a> </li>
+
+        <div class="nav-icon">
+
+          <a href="https://www.instagram.com/remostars/" target="_blank"><i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://web.facebook.com/RemoStarsSC/?_rdc=1&_rdr#" target="_blank"><i
+              class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://x.com/RemoStarsSC?s=09/" target="_blank"><i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+        </div>
+      </ul>
+
+    </nav>
+    <!--navigation ends-->
+    <!-- 
+    <h2 class="welcome">
+      Welcome to Remo Stars FC
+    </h2> -->
+
+  </header>
+
+  <h1 class="Checkout">CHECKOUT</h1>
+  <form action="check.html" method="get" id="checkout">
+    <div class="Checkout-form">
+      <div class="info">
+
+        <h1>Enter Delivery Information</h1>
+
+        <div class="full-name">
+          <label for="fnm" class="del-label">Full Name*</label>
+          <input type="text" name="" id="fnm" placeholder="Enter your full name" class="del-input" required>
+          <p class="error" id="fnm-error"></p>
+        </div>
+
+        <div class="phone-num">
+          <label for="pnm" class="del-label">Phone Number*</label>
+          <input type="tel" name="" id="pnm" placeholder="Enter your Phone Number" class="del-input" maxlength="11"
+            required>
+          <p class="error" id="pnm-error"></p>
+        </div>
+
+        <div class="email">
+          <label for="ema" class="del-label">Email Address*</label>
+          <input type="email" name="" id="ema" placeholder="Enter your email address" class="del-input" required>
+          <p class="error" id="ema-error"></p>
+        </div>
+
+        <div class="address">
+          <label for="addr" class="del-label"> Address* </label>
+          <textarea name="" id="addr" cols="40" rows="5" placeholder="Enter your address" class="del-text"
+            minlength="10" required></textarea>
+          <p class="error" id="addr-error"></p>
+        </div>
+
+
+        <div class="state">
+          <label for="state" class="del-label">State* </label>
+          <select name="" id="state" required class="del-select">
+            <option value="Standard">
+              Lagos State
+            </option>
+            <option value="Express">
+              Ogun State
+            </option>
+          </select>
+          <p></p>
+        </div>
+
+        <div class="ct">
+          <label for="state" class="del-label">City/Town*</label>
+          <input type="text" name="" id="ct" placeholder="Enter your city or town" class="del-input" required>
+          <p class="error" id="ct-error"></p>
+        </div>
+
+        <div class="del">
+          <label for="deli" class="del-label">Delivery Method* </label>
+          <select name="" id="deli" required class="del-selects">
+            <option value="Standard">
+              Standard Delivery (2,500 - 3-5 days)
+            <option value="Express">
+              Express Delivery (4,000 - 1-2 days)
+            <option value="Pick Up">
+              Pick up at Remo Stars Stadium (Free)
+            </option>
+          </select>
+          <p></p>
+        </div>
+
+      </div>
+
+      <div class="payment">
+        <h1>Secure Payment</h1>
+
+        <div>
+          <label for="card" class="pay-label">Payment Method*</label>
+          <select name="" id="card" class="pay-select" required>
+            <option value="Standard">
+              Debit Card
+            </option>
+            <option value="Express">
+              Visa Card
+            </option>
+            <option value="Pick Up">
+              Paypal
+            </option>
+            <option value="Pick Up">
+              Amex
+            </option>
+          </select>
+          <p></p>
+        </div>
+        <div>
+          <label for="cn" class="pay-label">Card Number*</label>
+          <input type="password" name="" id="cn" placeholder="Enter Card Number" class="pay-input" maxlength="16"
+            required>
+          <p class="error" id="cn-error"></p>
+        </div>
+        <div>
+          <label for="cnm" class="pay-label">Card Name*</label>
+          <input type="text" name="" id="cnm" placeholder="Enter Card Name" class="pay-input" required>
+          <p class="error" id="cnm-error"></p>
+        </div>
+        <div>
+          <label for="cvv" class="pay-label">CVV*</label>
+          <input type="password" name="" id="cvv" placeholder="Enter CVV" class="pay-input" maxlength="4" required>
+          <p class="error" id="cvv-error"></p>
+        </div>
+        <div>
+          <label for="ed" class="pay-label">Expiry Date*</label>
+          <input type="month" name="" id="ed" class="pay-date" placeholder="Enter Card Expiry Date" class="pay-input"
+            required>
+          <p class="error" id="ed-error"></p>
+        </div>
+      </div>
+    </div>
+    <p class="note">
+      Note: Delivery is available only within Lagos and Ogun. If you're in any other state, please collect your
+      order from our Stadium directly
+    </p>
+
+    <div class="Checkout-btn" onclick="submit(event)">
+      <button>Checkout</button>
+    </div>
+
+  </form>
+
+  <div class="copybackgimg">
+    <div class="copybackgcol">
+      <P class="copy">
+        copyright &copy; 2025 Remo Stars.All Rights Reserved.
+      </P>
+    </div>
+  </div>
+
+  <script src="script/script.js" defer></script>
+</body>
+
+</html>
